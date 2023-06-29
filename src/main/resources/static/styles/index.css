@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Caprasimo", cursive;
+}
+
+body {
+  background-color: #6a559b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100dvw;
+  height: 100dvh;
+}
+
+h1,
+span {
+  text-align: center;
+  color: #ffe587;
+  opacity: 1;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  line-height: 2.7rem;
+}
+span:first-of-type {
+  opacity: 0.8;
+}
+span:nth-last-of-type(3) {
+  opacity: 0.6;
+}
+span:nth-last-of-type(2) {
+  opacity: 0.4;
+}
+span:last-of-type {
+  opacity: 0.2;
+}
