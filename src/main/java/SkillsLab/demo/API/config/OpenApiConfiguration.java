@@ -1,4 +1,4 @@
-package SkillsLab.demo.config;
+package SkillsLab.demo.API.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
